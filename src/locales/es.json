@@ -1,0 +1,304 @@
+{
+  "nav": {
+      "home": "Inicio",
+      "empresa": "porque esta Empresa",
+      "climate": "Canvio Climatico",
+      "asg": "ASG",
+      "contact": "Contacto"
+    },
+  "home": {
+    "hero": {
+      "title": "Impacto Medioambiental de Back Market",
+      "description": "Descubre cómo Back Market está revolucionando el mercado de dispositivos reacondicionados y su compromiso con la sostenibilidad ambiental.",
+      "cta": "Descubre más"
+    },
+    "impact": {
+      "title": "Nuestro Impacto",
+      "circular_economy": {
+        "title": "Economía Circular",
+        "description": "Damos una segunda vida a los dispositivos electrónicos, reduciendo la necesidad de extraer nuevos materiales y fabricar desde cero."
+      },
+      "co2": {
+        "title": "Reducción de CO₂",
+        "description": "Cada dispositivo reacondicionado evita la emisión de toneladas de CO₂ comparado con la fabricación de uno nuevo."
+      },
+      "social": {
+        "title": "Impacto Social",
+        "description": "Hacemos la tecnología más accesible y contribuimos a la creación de empleos verdes en el sector del reciclaje."
+      }
+    },
+    "cta_section": {
+      "title": "Únete a la Revolución Sostenible",
+      "description": "Descubre cómo Back Market está cambiando el mundo, un dispositivo a la vez.",
+      "btn_mission": "Nuestra Misión",
+      "btn_contact": "Contáctanos"
+    }
+  },
+  "empresa": {
+    "hero": {
+      "title": "¿Por qué esta empresa?",
+      "subtitle": "Back Market es el mercado líder en dispositivos electrónicos reacondicionados, comprometidos con un futuro más sostenible."
+    },
+    "reasons": {
+      "ewaste": {
+        "title": "Reducción significativa de residuos electrónicos",
+        "description": "Cada año se generan 50 millones de toneladas de residuos electrónicos a nivel mundial. Back Market da una segunda vida a los dispositivos, evitando que terminen en vertederos."
+      },
+      "circular": {
+        "title": "Compromiso con la economía circular",
+        "description": "Fomentamos un modelo económico donde los productos mantienen su valor el máximo tiempo posible, minimizando el uso de recursos naturales y la generación de residuos."
+      },
+      "transparency": {
+        "title": "Transparencia en las prácticas sostenibles",
+        "description": "Publicamos regularmente informes detallados sobre nuestro impacto ambiental, certificaciones y objetivos de sostenibilidad para mantener la confianza de nuestros clientes."
+      },
+      "quality": {
+        "title": "Certificación y garantía de calidad",
+        "description": "Todos los dispositivos pasan por un proceso riguroso de 40 puntos de control para asegurar que funcionan como nuevos, con garantía mínima de 12 meses."
+      }
+    },
+    "stats": {
+      "title": "Nuestro Impacto en Cifras",
+      "ewaste_reduction": {
+        "label": "reducción de residuos",
+        "sub": "vs fabricación nueva"
+      },
+      "co2_avoided": {
+        "label": "toneladas de CO₂ evitadas",
+        "sub": "hasta la fecha"
+      },
+      "satisfaction": {
+        "label": "puntuación de satisfacción",
+        "sub": "sobre 100"
+      },
+      "devices_sold": {
+        "label": "dispositivos vendidos",
+        "sub": "desde 2014"
+      }
+    },
+    "comparison": {
+      "title": "Comparativa: Dispositivo Nuevo vs. Reacondicionado",
+      "new": {
+        "title": "Dispositivo Nuevo",
+        "item1": "80 kg de materias primas extraídas",
+        "item2": "1200 litros de agua utilizada",
+        "item3": "85 kg de CO₂ emitido",
+        "item4": "Procesos de fabricación intensivos",
+        "item5": "Embalaje nuevo y transporte global"
+      },
+      "refurbished": {
+        "title": "Dispositivo Reacondicionado",
+        "item1": "0 kg de nuevas materias primas",
+        "item2": "50 litros de agua (limpieza y pruebas)",
+        "item3": "7 kg de CO₂ emitido (transporte y proceso)",
+        "item4": "Solo proceso de reacondicionamiento",
+        "item5": "Embalaje reciclado y transporte local"
+      }
+    },
+    "certification": {
+      "title": "Nuestro Proceso de Certificación",
+      "step1": {
+        "title": "Diagnóstico Completo",
+        "description": "Cada dispositivo pasa por una evaluación exhaustiva de 40 puntos de control para identificar cualquier problema."
+      },
+      "step2": {
+        "title": "Reacondicionamiento",
+        "description": "Limpieza profesional, sustitución de componentes defectuosos y actualización de software para garantizar el rendimiento óptimo."
+      },
+      "step3": {
+        "title": "Certificación Final",
+        "description": "Pruebas finales rigurosas y emisión del certificado Back Market con garantía mínima de 12 meses."
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contacta con Nosotros",
+      "subtitle": "¿Tienes alguna pregunta sobre sostenibilidad, nuestros productos o quieres colaborar con nosotros? Estamos aquí para ayudarte."
+    },
+    "form": {
+      "title": "Envíanos un Mensaje",
+      "label_name": "Nombre completo *",
+      "placeholder_name": "Tu nombre",
+      "label_email": "Email *",
+      "placeholder_email": "tu.email@email.com",
+      "label_subject": "Asunto *",
+      "subject_default": "Selecciona un asunto",
+      "subject_info": "Información general",
+      "subject_sustainability": "Preguntas sobre sostenibilidad",
+      "subject_collaboration": "Oportunidades de colaboración",
+      "subject_press": "Prensa y medios",
+      "subject_other": "Otros",
+      "label_message": "Mensaje *",
+      "placeholder_message": "Escribe tu mensaje aquí...",
+      "submit_btn": "Enviar Mensaje",
+      "alert_success": "¡Gracias por tu mensaje! Nos pondremos en contacto pronto."
+    },
+    "info_box": {
+      "title": "Información de Contacto",
+      "hours_title": "Horario de Atención",
+      "weekdays_label": "Lunes - Viernes:",
+      "weekdays_value": "9:00 - 18:00",
+      "weekend_label": "Fin de semana:",
+      "weekend_value": "Cerrado",
+      "social_title": "Redes Sociales",
+      "social_desc": "Síguenos para estar al día de las últimas novedades sobre sostenibilidad y tecnología:",
+      "social_email": "Email",
+      "tlf": "Teléfono",
+      "address_title": "Oficina Central"
+    },
+    "faqs": {
+      "title": "Preguntas Frecuentes",
+      "q1": {
+        "question": "¿Cómo puedo colaborar con Back Market?",
+        "answer": "Estamos abiertos a colaboraciones con empresas, organizaciones e influencers que comparten nuestros valores de sostenibilidad. Escríbenos a sustainability@backmarket.com."
+      },
+      "q2": {
+        "question": "¿Dónde puedo encontrar vuestros informes de sostenibilidad?",
+        "answer": "Publicamos informes anuales de sostenibilidad en nuestro sitio web. También enviamos actualizaciones trimestrales a los suscriptores de nuestro boletín."
+      },
+      "q3": {
+        "question": "Necesito información para un proyecto educativo",
+        "answer": "Estamos encantados de ayudar con proyectos educativos. Contáctanos con los detalles de tu proyecto y te proporcionaremos la información necesaria."
+      },
+      "q4": {
+        "question": "¿Sois prensa y queréis entrevistarnos?",
+        "answer": "Para consultas de prensa, por favor contacta con nuestro equipo de comunicación en press@backmarket.com con el máximo de detalles posible."
+      }
+    }
+  },
+  "climate": {
+    "hero": {
+      "title": "Cambio Climático",
+      "subtitle": "El impacto del sector tecnológico en el cambio climático y cómo Back Market está liderando la transformación sostenible."
+    },
+    "impact_sector": {
+      "title": "Impacto en el sector",
+      "p1": "La economía circular puede ayudar a reducir las emisiones de carbono en un 15% antes de 2032. Back Market está liderando esta transformación en el mercado de dispositivos electrónicos.",
+      "p2": "El sector tecnológico es responsable del 4% de las emisiones globales de gases de efecto invernadero, una cifra que se duplicará en 2025 si no se toman medidas.",
+      "p3": "Cada dispositivo reacondicionado evita la extracción de materiales raros y la fabricación de nuevos componentes, reduciendo significativamente la huella de carbono.",
+      "key_data": {
+        "title": "Datos clave:",
+        "item1": "80% del impacto ambiental se genera en la fabricación",
+        "item2": "Un smartphone nuevo emite 85 kg de CO₂",
+        "item3": "Un smartphone reacondicionado solo 7 kg de CO₂",
+        "item4": "Esto representa una reducción del 92%"
+      }
+    },
+    "challenges": {
+      "title": "Desafíos del sector",
+      "item1": "Reducción de emisiones en la cadena de suministro global",
+      "item2": "Gestión responsable de los 50 millones de toneladas de residuos electrónicos anuales",
+      "item3": "Fomento de la reutilización y reparación frente a la obsolescencia programada",
+      "item4": "Educación del consumidor sobre la sostenibilidad tecnológica",
+      "item5": "Transición a fuentes de energía renovable en la fabricación",
+      "item6": "Desarrollo de materiales más sostenibles y biodegradables"
+    },
+    "risks": {
+      "title": "Proyección de Riesgos Climáticos",
+      "short_term": {
+        "period": "≤ 2 AÑOS",
+        "title": "Riesgos a Corto Plazo",
+        "r1": "Regulaciones ambientales",
+        "r2": "Presión de los consumidores",
+        "r3": "Coste de materiales",
+        "level_high": "Alta",
+        "level_mod": "Moderada"
+      },
+      "long_term": {
+        "period": "EN 10 AÑOS",
+        "title": "Riesgos a Largo Plazo",
+        "r1": "Escasez de recursos",
+        "r2": "Cambios regulatorios",
+        "r3": "Impacto climático",
+        "level_crit": "Crítica",
+        "level_high": "Alta"
+      },
+      "response": {
+        "title": "Nuestra Respuesta",
+        "subtitle": "Back Market se está preparando activamente para estos riesgos mediante:",
+        "item1": "Inversión en tecnologías de reacondicionamiento avanzadas",
+        "item2": "Partnerships con certificadores ambientales",
+        "item3": "Educación y sensibilización de los consumidores",
+        "item4": "Lobby por legislación favorable a la economía circular",
+        "item5": "Objetivos de neutralidad de carbono para 2030",
+        "item6": "Expansión de la red de recogida y reciclaje"
+      }
+    },
+    "gallery_title": "El Impacto Visual del Cambio Climático"
+  },
+  "asg": {
+    "hero": {
+      "title": "ASG (Ambiental, Social y Gobernanza)",
+      "subtitle": "Nuestro compromiso integral con la sostenibilidad, la responsabilidad social y la gobernanza ética."
+    },
+    "pillars": {
+      "environmental": {
+        "title": "🌍 Ambiental",
+        "i1_title": "Reducción de residuos electrónicos",
+        "i1_desc": "Evitamos que millones de dispositivos terminen en vertederos",
+        "i2_title": "Economía circular",
+        "i2_desc": "Modelo de negocio basado en la reutilización y prolongación de la vida útil",
+        "i3_title": "Emisiones de CO₂ evitadas",
+        "i3_desc": "1.6 millones de toneladas de CO₂ ahorradas hasta la fecha",
+        "i4_title": "Uso responsable de recursos",
+        "i4_desc": "Minimización de la extracción de materias primas",
+        "i5_title": "Net Zero 2030",
+        "i5_desc": "Objetivo de emisiones netas cero para 2030"
+      },
+      "social": {
+        "title": "👥 Social",
+        "i1_title": "Acceso a tecnología asequible",
+        "i1_desc": "Democratización del acceso a dispositivos de calidad",
+        "i2_title": "Creación de empleo verde",
+        "i2_desc": "Más de 2.000 puestos de trabajo en el sector del reacondicionamiento",
+        "i3_title": "Educación sostenible",
+        "i3_desc": "Programas de concienciación sobre consumo responsable",
+        "i4_title": "Inclusión digital",
+        "i4_desc": "Reducción de la brecha tecnológica",
+        "i5_title": "Condiciones laborales éticas",
+        "i5_desc": "Comercio justo y salarios dignos para nuestros partners"
+      },
+      "governance": {
+        "title": "⚖️ Gobernanza",
+        "i1_title": "Transparencia en operaciones",
+        "i1_desc": "Informes públicos anuales sobre impacto y sostenibilidad",
+        "i2_title": "Certificaciones de calidad",
+        "i2_desc": "ISO 14001, B Corp y otras certificaciones ambientales",
+        "i3_title": "Ética empresarial",
+        "i3_desc": "Código de conducta estricto y comité de ética activo",
+        "i4_title": "Compliance ambiental",
+        "i4_desc": "Cumplimiento y superación de todas las regulaciones",
+        "i5_title": "Diversidad en liderazgo",
+        "i5_desc": "40% de mujeres en posiciones directivas"
+      }
+    },
+    "certs": {
+      "title": "Certificaciones y Reconocimientos",
+      "bcorp_desc": "Certificado como una empresa que cumple con los más altos estándares de rendimiento social y ambiental",
+      "iso_desc": "Certificación del sistema de gestión ambiental reconocido internacionalmente",
+      "climate_desc": "Certificación de neutralidad climática para nuestras operaciones",
+      "ecolabel_desc": "Etiqueta ecológica oficial de la Unión Europea"
+    },
+    "commitments": {
+      "title": "Nuestros Compromisos",
+      "goals_title": "Objetivos 2030",
+      "g1": "Neutralidad de carbono en todas nuestras operaciones",
+      "g2": "10 millones de dispositivos reacondicionados anualmente",
+      "g3": "100% energía renovable en todas las instalaciones",
+      "g4": "50% de diversidad en todos los niveles de la empresa",
+      "g5": "Cero residuos a vertederos - reciclaje total",
+      "progress_title": "Progreso Actual",
+      "p1": "Reducción de emisiones",
+      "p2": "Energía renovable",
+      "p3": "Diversidad en plantilla",
+      "p4": "Residuos reciclados"
+    },
+    "gallery_title": "Nuestro Impacto en Imágenes",
+    "footer_card": {
+      "title": "Nuestro compromiso es tu futuro",
+      "desc": "Cada dispositivo reacondicionado es un paso hacia un planeta más sostenible y una sociedad más justa.",
+      "badge": "Juntos marcamos la diferencia"
+    }
+  }
+}

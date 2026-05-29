@@ -13,7 +13,7 @@ const formData = ref({
 
 // Función para manejar el envío
 const handleSubmit = () => {
-  alert('Gràcies pel teu missatge! Ens posarem en contacte aviat.')
+  alert(t('contact.form.alert_success'))
   // Reseteamos el formulario vaciando los campos
   formData.value = {
     name: '',
@@ -34,9 +34,9 @@ const handleSubmit = () => {
         :transition="{ duration: 0.8 }"
         class="text-center"
       >
-        <h1 class="text-4xl sm:text-6xl font-bold mb-6">Contacta amb Nosaltres</h1>
+        <h1 class="text-4xl sm:text-6xl font-bold mb-6">{{ $t('contact.hero.title') }}</h1>
         <p class="text-xl sm:text-2xl text-gray-800 max-w-3xl mx-auto">
-          Tens alguna pregunta sobre sostenibilitat, els nostres productes o vols col·laborar amb nosaltres? Estem aquí per ajudar-te.
+          {{ $t('contact.hero.subtitle') }}
         </p>
       </Motion>
     </section>
@@ -53,59 +53,59 @@ const handleSubmit = () => {
         >
           <div class="flex items-center gap-3 mb-8">
             <MessageSquare class="w-10 h-10" />
-            <h2 class="text-3xl font-bold">Envia'ns un Missatge</h2>
+            <h2 class="text-3xl font-bold">{{ $t('contact.form.title') }}</h2>
           </div>
 
           <form @submit.prevent="handleSubmit" class="space-y-6">
             <div>
-              <label for="name" class="block mb-2 font-bold">Nom complet *</label>
+              <label for="name" class="block mb-2 font-bold">{{ $t('contact.form.label_name') }}</label>
               <input
                 type="text"
                 id="name"
                 v-model="formData.name"
                 required
                 class="w-full px-6 py-4 rounded-full border-2 border-black bg-white focus:outline-none focus:ring-2 focus:ring-gray-400 transition-all"
-                placeholder="El teu nom"
+                :placeholder="$t('contact.form.placeholder_name')"
               />
             </div>
 
             <div>
-              <label for="email" class="block mb-2 font-bold">Email *</label>
+              <label for="email" class="block mb-2 font-bold">{{ $t('contact.form.label_email') }}</label>
               <input
                 type="email"
                 id="email"
                 v-model="formData.email"
                 required
                 class="w-full px-6 py-4 rounded-full border-2 border-black bg-white focus:outline-none focus:ring-2 focus:ring-gray-400 transition-all"
-                placeholder="el.teu@email.com"
+                :placeholder="$t('contact.form.placeholder_email')"
               />
             </div>
 
             <div>
-              <label for="subject" class="block mb-2 font-bold">Assumpte *</label>
+              <label for="subject" class="block mb-2 font-bold">{{ $t('contact.form.label_subject') }}</label>
               <select
                 id="subject"
                 v-model="formData.subject"
                 required
                 class="w-full px-6 py-4 rounded-full border-2 border-black bg-white focus:outline-none focus:ring-2 focus:ring-gray-400 transition-all"
               >
-                <option value="">Selecciona un assumpte</option>
-                <option value="info">Informació general</option>
-                <option value="sostenibilitat">Preguntes sobre sostenibilitat</option>
-                <option value="colaboracion">Oportunitats de col·laboració</option>
-                <option value="prensa">Premsa i mitjans</option>
-                <option value="otro">Altres</option>
+                <option value="">{{ $t('contact.form.subject_default') }}</option>
+                <option value="info">{{ $t('contact.form.subject_info') }}</option>
+                <option value="sostenibilitat">{{ $t('contact.form.subject_sustainability') }}</option>
+                <option value="colaboracion">{{ $t('contact.form.subject_collaboration') }}</option>
+                <option value="prensa">{{ $t('contact.form.subject_press') }}</option>
+                <option value="otro">{{ $t('contact.form.subject_other') }}</option>
               </select>
             </div>
 
             <div>
-              <label for="message" class="block mb-2 font-bold">Missatge *</label>
+              <label for="message" class="block mb-2 font-bold">{{ $t('contact.form.label_message') }}</label>
               <textarea
                 id="message"
                 v-model="formData.message"
                 required
                 class="w-full px-6 py-4 rounded-2xl border-2 border-black bg-white h-40 focus:outline-none focus:ring-2 focus:ring-gray-400 transition-all resize-none"
-                placeholder="Escriu el teu missatge aquí..."
+                :placeholder="$t('contact.form.placeholder_message')"
               ></textarea>
             </div>
 
@@ -117,7 +117,7 @@ const handleSubmit = () => {
               class="w-full px-8 py-4 bg-black text-[#E8F48C] rounded-full border-2 border-black hover:bg-gray-800 transition-all font-bold flex items-center justify-center gap-2 text-lg cursor-pointer"
             >
               <Send :size="20" />
-              Enviar Missatge
+              {{ $t('contact.form.submit_btn') }}
             </Motion>
           </form>
         </Motion>
@@ -130,14 +130,14 @@ const handleSubmit = () => {
           class="space-y-8"
         >
           <div class="bg-white/60 p-8 rounded-3xl border-2 border-black">
-            <h3 class="text-2xl font-bold mb-6">Informació de Contacte</h3>
+            <h3 class="text-2xl font-bold mb-6">{{ $t('contact.info_box.title') }}</h3>
             <div class="space-y-6">
               <div class="flex items-start gap-4">
                 <div class="bg-[#E8F48C] p-3 rounded-full border-2 border-black">
                   <Mail class="w-6 h-6" />
                 </div>
                 <div>
-                  <h4 class="font-bold mb-1">Email</h4>
+                  <h4 class="font-bold mb-1">{{ $t('contact.info_box.social_email') }}</h4>
                   <p class="text-gray-700">sustainability@backmarket.com</p>
                   <p class="text-gray-700">press@backmarket.com</p>
                 </div>
@@ -148,9 +148,9 @@ const handleSubmit = () => {
                   <Phone class="w-6 h-6" />
                 </div>
                 <div>
-                  <h4 class="font-bold mb-1">Telèfon</h4>
+                  <h4 class="font-bold mb-1">{{ $t('contact.info_box.tlf') }}</h4>
                   <p class="text-gray-700">+34 900 123 456</p>
-                  <p class="text-sm text-gray-600">Dilluns - Divendres, 9:00 - 18:00</p>
+                  <p class="text-sm text-gray-600">{{ $t('contact.info_box.weekdays_label') }}, {{ $t('contact.info_box.weekdays_value') }}</p>
                 </div>
               </div>
 
@@ -159,7 +159,7 @@ const handleSubmit = () => {
                   <MapPin class="w-6 h-6" />
                 </div>
                 <div>
-                  <h4 class="font-bold mb-1">Oficines Centrals</h4>
+                  <h4 class="font-bold mb-1">{{ $t('contact.info_box.address_title') }}</h4>
                   <p class="text-gray-700">Carrer de la Sostenibilitat, 42</p>
                   <p class="text-gray-700">08001 Barcelona, Catalunya</p>
                 </div>
@@ -168,23 +168,23 @@ const handleSubmit = () => {
           </div>
 
           <div class="bg-[#4A5F3B] text-[#E8F48C] p-8 rounded-3xl border-2 border-black">
-            <h3 class="text-2xl font-bold mb-4">Horari d'Atenció</h3>
+            <h3 class="text-2xl font-bold mb-4">{{ $t('contact.info_box.hours_title') }}</h3>
             <div class="space-y-2">
               <div class="flex justify-between">
-                <span>Dilluns - Divendres:</span>
+                <span>{{ $t('contact.info_box.weekdays_label') }}</span>
                 <span class="font-bold">9:00 - 18:00</span>
               </div>
               <div class="flex justify-between">
-                <span>Cap de setmana:</span>
-                <span class="font-bold">Tancat</span>
+                <span>{{ $t('contact.info_box.weekend_label') }}</span>
+                <span class="font-bold">{{ $t('contact.info_box.weekend_value') }}</span>
               </div>
             </div>
           </div>
 
           <div class="bg-white/60 p-8 rounded-3xl border-2 border-black">
-            <h3 class="text-2xl font-bold mb-4">Xarxes Socials</h3>
+            <h3 class="text-2xl font-bold mb-4">{{ $t('contact.info_box.social_title') }}</h3>
             <p class="text-gray-700 mb-4">
-              Segueix-nos per estar al dia de les últimes novetats sobre sostenibilitat i tecnologia:
+              {{ $t('contact.info_box.social_desc') }}
             </p>
             <div class="flex gap-4">
               <Motion
@@ -233,34 +233,34 @@ const handleSubmit = () => {
           :in-view-options="{ once: true }"
           :transition="{ duration: 0.6 }"
         >
-          <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center">Preguntes Freqüents</h2>
+          <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center">{{ $t('contact.faqs.title') }}</h2>
 
           <div class="grid md:grid-cols-2 gap-6">
             <div class="bg-white p-6 rounded-2xl border-2 border-black">
-              <h4 class="font-bold text-xl mb-3">Com puc col·laborar amb Back Market?</h4>
+              <h4 class="font-bold text-xl mb-3">{{ $t('contact.faqs.q1.question') }}</h4>
               <p class="text-gray-700">
-                Estem oberts a col·laboracions amb empreses, organitzacions i influencers que comparteixen els nostres valors de sostenibilitat. Escriu-nos a sustainability@backmarket.com.
+                {{ $t('contact.faqs.q1.answer') }}
               </p>
             </div>
 
             <div class="bg-white p-6 rounded-2xl border-2 border-black">
-              <h4 class="font-bold text-xl mb-3">On puc trobar els vostres informes de sostenibilitat?</h4>
+              <h4 class="font-bold text-xl mb-3">{{ $t('contact.faqs.q2.question') }}</h4>
               <p class="text-gray-700">
-                Publiquem informes anuals de sostenibilitat al nostre lloc web. També enviem actualitzacions trimestrals als subscriptors del nostre butlletí.
+                {{ $t('contact.faqs.q2.answer') }}
               </p>
             </div>
 
             <div class="bg-white p-6 rounded-2xl border-2 border-black">
-              <h4 class="font-bold text-xl mb-3">Necessito informació per a un projecte educatiu</h4>
+              <h4 class="font-bold text-xl mb-3">{{ $t('contact.faqs.q3.question') }}</h4>
               <p class="text-gray-700">
-                Estem encantats d'ajudar amb projectes educatius. Contacta'ns amb els detalls del teu projecte i et proporcionarem la informació necessària.
+                {{ $t('contact.faqs.q3.answer') }}
               </p>
             </div>
 
             <div class="bg-white p-6 rounded-2xl border-2 border-black">
-              <h4 class="font-bold text-xl mb-3">Sou premsa i voleu entrevistar-nos?</h4>
+              <h4 class="font-bold text-xl mb-3">{{ $t('contact.faqs.q4.question') }}</h4>
               <p class="text-gray-700">
-                Per a consultes de premsa, si us plau contacta amb el nostre equip de comunicació a press@backmarket.com amb el màxim de detalls possible.
+                {{ $t('contact.faqs.q4.answer') }}
               </p>
             </div>
           </div>

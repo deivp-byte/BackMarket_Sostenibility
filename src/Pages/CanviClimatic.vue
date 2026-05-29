@@ -13,9 +13,9 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
         :animate="{ opacity: 1, y: 0 }"
         :transition="{ duration: 0.8 }"
       >
-        <h1 class="text-4xl sm:text-6xl font-bold mb-6">Canvi Climàtic</h1>
+        <h1 class="text-4xl sm:text-6xl font-bold mb-6">{{ $t('climate.hero.title') }}</h1>
         <p class="text-xl sm:text-2xl text-gray-800 max-w-3xl">
-          L'impacte del sector tecnològic en el canvi climàtic i com Back Market està liderant la transformació sostenible.
+          {{ $t('contact.hero.subtitle') }}
         </p>
       </Motion>
     </section>
@@ -61,25 +61,25 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
         >
           <div class="flex items-center gap-3 mb-6">
             <Factory class="w-10 h-10" />
-            <h2 class="text-3xl font-bold">Impacte en el sector</h2>
+            <h2 class="text-3xl font-bold">{{ $t('climate.impact_sector.title') }}</h2>
           </div>
           <div class="space-y-4 text-gray-800">
             <p class="text-lg">
-              <strong>L'economia circular pot ajudar a reduir les emissions de carboni en un 15% abans del 2032.</strong> Back Market està liderant aquesta transformació al mercat de dispositius electrònics.
+              {{ $t('climate.impact_sector.p1') }}
             </p>
             <p>
-              El sector tecnològic és responsable del 4% de les emissions globals de gasos d'efecte hivernacle, una xifra que es duplicarà el 2025 si no es prenen mesures.
+              {{ $t('climate.impact_sector.p2') }}
             </p>
             <p>
-              Cada dispositiu reacondicionat evita l'extracció de materials rars i la fabricació de nous components, reduint significativament la petjada de carboni.
+              {{ $t('climate.impact_sector.p3') }}
             </p>
             <div class="bg-white/60 p-6 rounded-xl border-2 border-black mt-6">
-              <h4 class="font-bold mb-3 text-xl">Dades clau:</h4>
+              <h4 class="font-bold mb-3 text-xl">{{ $t('climate.impact_sector.key_data.title') }}</h4>
               <ul class="space-y-2">
-                <li>• 80% de l'impacte ambiental es genera en la fabricació</li>
-                <li>• Un smartphone nou emet 85 kg de CO₂</li>
-                <li>• Un smartphone reacondicionat només 7 kg de CO₂</li>
-                <li>• Això representa una reducció del 92%</li>
+                <li>• {{ $t('climate.impact_sector.key_data.item1') }}</li>
+                <li>• {{ $t('climate.impact_sector.key_data.item2') }}</li>
+                <li>• {{ $t('climate.impact_sector.key_data.item3') }}</li>
+                <li>• {{ $t('climate.impact_sector.key_data.item4') }}</li>
               </ul>
             </div>
           </div>
@@ -94,32 +94,32 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
           <div class="bg-[#4A5F3B] text-[#E8F48C] p-8 rounded-2xl border-2 border-black h-full">
             <div class="flex items-center gap-3 mb-6">
               <AlertTriangle class="w-10 h-10" />
-              <h3 class="text-3xl font-bold">Desafiaments del sector</h3>
+              <h3 class="text-3xl font-bold">{{ $t('climate.challenges.title') }}</h3>
             </div>
             <ul class="space-y-4 text-lg">
               <li class="flex items-start gap-3">
                 <span class="text-2xl">•</span>
-                <span>Reducció d'emissions en la cadena de subministrament global</span>
+                <span>{{ $t('climate.challenges.item1') }}</span>
               </li>
               <li class="flex items-start gap-3">
                 <span class="text-2xl">•</span>
-                <span>Gestió responsable dels 50 milions de tones de residus electrònics anuals</span>
+                <span>{{ $t('climate.challenges.item2') }}</span>
               </li>
               <li class="flex items-start gap-3">
                 <span class="text-2xl">•</span>
-                <span>Foment de la reutilització i reparació enfront de l'obsolescència programada</span>
+                <span>{{ $t('climate.challenges.item3') }}</span>
               </li>
               <li class="flex items-start gap-3">
                 <span class="text-2xl">•</span>
-                <span>Educació del consumidor sobre la sostenibilitat tecnològica</span>
+                <span>{{ $t('climate.challenges.item4') }}</span>
               </li>
               <li class="flex items-start gap-3">
                 <span class="text-2xl">•</span>
-                <span>Transició a fonts d'energia renovable en la fabricació</span>
+                <span>{{ $t('climate.challenges.item5') }}</span>
               </li>
               <li class="flex items-start gap-3">
                 <span class="text-2xl">•</span>
-                <span>Desenvolupament de materials més sostenibles i biodegradables</span>
+                <span>{{ $t('climate.challenges.item6') }}</span>
               </li>
             </ul>
           </div>
@@ -137,18 +137,18 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
         >
           <div class="flex items-center gap-3 mb-8">
             <TrendingUp class="w-12 h-12" />
-            <h2 class="text-3xl sm:text-4xl font-bold">Projecció de Riscos Climàtics</h2>
+            <h2 class="text-3xl sm:text-4xl font-bold">{{ $t('climate.risks.title') }}</h2>
           </div>
 
           <div class="grid md:grid-cols-2 gap-8 mb-8">
             <div class="bg-white p-8 rounded-2xl border-2 border-black">
-              <p class="text-sm font-bold mb-4 text-gray-600">≤ 2 ANYS</p>
-              <h4 class="text-2xl font-bold mb-4">Riscos a Curt Termini</h4>
+              <p class="text-sm font-bold mb-4 text-gray-600">{{ $t('climate.risks.short_term.period') }}</p>
+              <h4 class="text-2xl font-bold mb-4">{{ $t('climate.risks.short_term.title') }}</h4>
               <div class="space-y-4">
                 <div>
                   <div class="flex justify-between mb-2">
-                    <span>Regulacions ambientals</span>
-                    <span class="font-bold">Alta</span>
+                    <span>{{ $t('climate.risks.short_term.r1') }}</span>
+                    <span class="font-bold">{{ $t('climate.risks.short_term.level_high') }}</span>
                   </div>
                   <div class="h-3 bg-gray-200 rounded-full overflow-hidden">
                     <Motion
@@ -162,8 +162,8 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
                 </div>
                 <div>
                   <div class="flex justify-between mb-2">
-                    <span>Pressió dels consumidors</span>
-                    <span class="font-bold">Moderada</span>
+                    <span>{{ $t('climate.risks.short_term.r2') }}</span>
+                    <span class="font-bold">{{ $t('climate.risks.short_term.level_mod') }}</span>
                   </div>
                   <div class="h-3 bg-gray-200 rounded-full overflow-hidden">
                     <Motion
@@ -177,8 +177,8 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
                 </div>
                 <div>
                   <div class="flex justify-between mb-2">
-                    <span>Cost de materials</span>
-                    <span class="font-bold">Moderada</span>
+                    <span>{{ $t('climate.risks.r3') }}</span>
+                    <span class="font-bold">{{ $t('climate.risks.short_term.level_mod') }}</span>
                   </div>
                   <div class="h-3 bg-gray-200 rounded-full overflow-hidden">
                     <Motion
@@ -194,13 +194,13 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
             </div>
 
             <div class="bg-white p-8 rounded-2xl border-2 border-black">
-              <p class="text-sm font-bold mb-4 text-gray-600">EN 10 ANYS</p>
-              <h4 class="text-2xl font-bold mb-4">Riscos a Llarg Termini</h4>
+              <p class="text-sm font-bold mb-4 text-gray-600">{{ $t('climate.risks.long_term.period') }}</p>
+              <h4 class="text-2xl font-bold mb-4">{{ $t('climate.risks.long_term.title') }}</h4>
               <div class="space-y-4">
                 <div>
                   <div class="flex justify-between mb-2">
-                    <span>Escassetat de recursos</span>
-                    <span class="font-bold">Crítica</span>
+                    <span>{{ $t('climate.risks.long_term.r1') }}</span>
+                    <span class="font-bold">{{ $t('climate.risks.long_term.level_crit') }}</span>
                   </div>
                   <div class="h-3 bg-gray-200 rounded-full overflow-hidden">
                     <Motion
@@ -214,8 +214,8 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
                 </div>
                 <div>
                   <div class="flex justify-between mb-2">
-                    <span>Canvis regulatoris</span>
-                    <span class="font-bold">Alta</span>
+                    <span>{{ $t('climate.risks.long_term.r2') }}</span>
+                    <span class="font-bold">{{ $t('climate.risks.long_term.level_high') }}</span>
                   </div>
                   <div class="h-3 bg-gray-200 rounded-full overflow-hidden">
                     <Motion
@@ -229,8 +229,8 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
                 </div>
                 <div>
                   <div class="flex justify-between mb-2">
-                    <span>Impacte climàtic</span>
-                    <span class="font-bold">Alta</span>
+                    <span>{{ $t('climate.risks.long_term.r3') }}</span>
+                    <span class="font-bold">{{ $t('climate.risks.long_term.level_high') }}</span>
                   </div>
                   <div class="h-3 bg-gray-200 rounded-full overflow-hidden">
                     <Motion
@@ -250,17 +250,17 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
             <div class="flex items-start gap-4">
               <Leaf class="w-10 h-10 flex-shrink-0 mt-1" />
               <div>
-                <h4 class="text-2xl font-bold mb-3">La Nostra Resposta</h4>
+                <h4 class="text-2xl font-bold mb-3">{{ $t('climate.risks.response.title') }}</h4>
                 <p class="text-lg mb-4">
-                  Back Market està preparant-se activament per aquests riscos mitjançant:
+                  {{ $t('climate.risks.response.subtitle') }}
                 </p>
                 <ul class="grid md:grid-cols-2 gap-3">
-                  <li>✓ Inversió en tecnologies de recondicionament avançades</li>
-                  <li>✓ Partnerships amb certificadors ambientals</li>
-                  <li>✓ Educació i sensibilització dels consumidors</li>
-                  <li>✓ Lobby per legislació favorable a l'economia circular</li>
-                  <li>✓ Objectius de neutralitat de carboni per 2030</li>
-                  <li>✓ Expansió de la xarxa de recollida i reciclatge</li>
+                  <li>✓ {{ $t('climate.risks.response.item1') }}</li>
+                  <li>✓ {{ $t('climate.risks.response.item2') }}</li>
+                  <li>✓ {{ $t('climate.risks.response.item3') }}</li>
+                  <li>✓ {{ $t('climate.risks.response.item4') }}</li>
+                  <li>✓ {{ $t('climate.risks.response.item5') }}</li>
+                  <li>✓ {{ $t('climate.risks.response.item6') }}</li>
                 </ul>
               </div>
             </div>
@@ -270,7 +270,7 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
     </section>
 
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <h2 class="text-3xl sm:text-4xl font-bold mb-8 text-center">L'Impacte Visual del Canvi Climàtic</h2>
+      <h2 class="text-3xl sm:text-4xl font-bold mb-8 text-center">{{ $t('climate.gallery_title') }}</h2>
       <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
         <Motion
           :initial="{ opacity: 0, scale: 0.9 }"

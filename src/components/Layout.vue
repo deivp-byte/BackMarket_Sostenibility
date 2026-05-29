@@ -1,13 +1,17 @@
 <script setup>
 import { RouterLink, RouterView, useRoute } from 'vue-router'
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
 
+
+const { t } = useI18n()
 // 1. Array de rutas para evitar duplicar código HTML
 const NAV_LINKS = [
-  { path: '/', label: 'Home' },
-  { path: '/empresa', label: 'Perqué aquesta empresa' },
-  { path: '/canvi-climatic', label: 'Canvi Climàtic' },
-  { path: '/asg', label: 'ASG' },
-  { path: '/contact', label: 'Contact Us' }
+  { path: '/', label: t('nav.home') },
+  { path: '/empresa', label: t('nav.empresa')  },
+  { path: '/canvi-climatic', label: t('nav.climate')  },
+  { path: '/asg', label: t('nav.asg')  },
+  { path: '/contact', label: t('nav.contact')  }
 ]
 
 const route = useRoute()

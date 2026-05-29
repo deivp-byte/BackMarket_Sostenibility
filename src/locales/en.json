@@ -1,0 +1,304 @@
+{
+  "nav": {
+      "home": "Home",
+      "empresa": "Why This Company",
+      "climate": "Climate Change",
+      "asg": "ASG",
+      "contact": "Contact"
+    },
+  "home": {
+    "hero": {
+      "title": "Environmental Impact of Back Market",
+      "description": "Discover how Back Market is revolutionizing the refurbished electronics market and its commitment to environmental sustainability.",
+      "cta": "Discover more"
+    },
+    "impact": {
+      "title": "Our Impact",
+      "circular_economy": {
+        "title": "Circular Economy",
+        "description": "We give a second life to electronic devices, reducing the need to extract new raw materials and manufacture from scratch."
+      },
+      "co2": {
+        "title": "CO₂ Reduction",
+        "description": "Each refurbished device prevents tons of CO₂ emissions compared to manufacturing a brand new one."
+      },
+      "social": {
+        "title": "Social Impact",
+        "description": "We make technology more accessible and contribute to the creation of green jobs within the recycling sector."
+      }
+    },
+    "cta_section": {
+      "title": "Join the Sustainable Revolution",
+      "description": "Discover how Back Market is changing the world, one device at a time.",
+      "btn_mission": "Our Mission",
+      "btn_contact": "Contact Us"
+    }
+  },
+  "empresa": {
+    "hero": {
+      "title": "Why This Company?",
+      "subtitle": "Back Market is the leading marketplace for refurbished electronic devices, committed to a more sustainable future."
+    },
+    "reasons": {
+      "ewaste": {
+        "title": "Significant reduction of electronic waste",
+        "description": "Every year, 50 million tons of electronic waste are generated globally. Back Market gives devices a second life, preventing them from ending up in landfills."
+      },
+      "circular": {
+        "title": "Commitment to the circular economy",
+        "description": "We promote an economic model where products maintain their value for as long as possible, minimizing the use of natural resources and waste generation."
+      },
+      "transparency": {
+        "title": "Transparency in sustainable practices",
+        "description": "We regularly publish detailed reports on our environmental impact, certifications, and sustainability goals to maintain our customers' trust."
+      },
+      "quality": {
+        "title": "Certification and quality guarantee",
+        "description": "All devices go through a rigorous 40-point inspection process to ensure they work like new, backed by a minimum 12-month warranty."
+      }
+    },
+    "stats": {
+      "title": "Our Impact in Figures",
+      "ewaste_reduction": {
+        "label": "waste reduction",
+        "sub": "vs brand new manufacturing"
+      },
+      "co2_avoided": {
+        "label": "tons of CO₂ avoided",
+        "sub": "to date"
+      },
+      "satisfaction": {
+        "label": "satisfaction score",
+        "sub": "out of 100"
+      },
+      "devices_sold": {
+        "label": "devices sold",
+        "sub": "since 2014"
+      }
+    },
+    "comparison": {
+      "title": "Comparison: New vs. Refurbished Device",
+      "new": {
+        "title": "New Device",
+        "item1": "80 kg of raw materials extracted",
+        "item2": "1200 liters of water used",
+        "item3": "85 kg of CO₂ emitted",
+        "item4": "Intensive manufacturing processes",
+        "item5": "New packaging and global shipping"
+      },
+      "refurbished": {
+        "title": "Refurbished Device",
+        "item1": "0 kg of new raw materials",
+        "item2": "50 liters of water (cleaning and testing)",
+        "item3": "7 kg of CO₂ emitted (shipping and processing)",
+        "item4": "Refurbishing process only",
+        "item5": "Recycled packaging and local shipping"
+      }
+    },
+    "certification": {
+      "title": "Our Certification Process",
+      "step1": {
+        "title": "Full Diagnosis",
+        "description": "Each device undergoes an exhaustive 40-point checklist to identify any hidden issues."
+      },
+      "step2": {
+        "title": "Refurbishing",
+        "description": "Professional cleaning, replacement of defective components, and software updates to guarantee peak performance."
+      },
+      "step3": {
+        "title": "Final Certification",
+        "description": "Rigorous final tests and issuance of the Back Market certificate with a minimum 12-month warranty."
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "Do you have any questions about sustainability, our products, or want to collaborate with us? We are here to help."
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "label_name": "Full name *",
+      "placeholder_name": "Your name",
+      "label_email": "Email *",
+      "placeholder_email": "your.email@email.com",
+      "label_subject": "Subject *",
+      "subject_default": "Select a subject",
+      "subject_info": "General information",
+      "subject_sustainability": "Questions about sustainability",
+      "subject_collaboration": "Collaboration opportunities",
+      "subject_press": "Press and media",
+      "subject_other": "Other",
+      "label_message": "Message *",
+      "placeholder_message": "Write your message here...",
+      "submit_btn": "Send Message",
+      "alert_success": "Thank you for your message! We will get in touch soon."
+    },
+    "info_box": {
+      "title": "Contact Information",
+      "hours_title": "Customer Service Hours",
+      "weekdays_label": "Monday - Friday:",
+      "weekdays_value": "9:00 AM - 6:00 PM",
+      "weekend_label": "Weekend:",
+      "weekend_value": "Closed",
+      "social_title": "Social Networks",
+      "social_desc": "Follow us to stay up to date with the latest news on sustainability and technology:",
+      "social_email": "Email",
+      "tlf": "Phone",
+      "address_title": "Head Office"
+    },
+    "faqs": {
+      "title": "Frequently Asked Questions",
+      "q1": {
+        "question": "How can I collaborate with Back Market?",
+        "answer": "We are open to collaborations with businesses, organizations, and influencers who share our sustainability values. Write to us at sustainability@backmarket.com."
+      },
+      "q2": {
+        "question": "Where can I find your sustainability reports?",
+        "answer": "We publish annual sustainability reports on our website. We also send quarterly updates to our newsletter subscribers."
+      },
+      "q3": {
+        "question": "I need information for an educational project",
+        "answer": "We are happy to help with educational projects. Contact us with the details of your project and we will provide the necessary information."
+      },
+      "q4": {
+        "question": "Are you press and want to interview us?",
+        "answer": "For press inquiries, please contact our communication team at press@backmarket.com with as many details as possible."
+      }
+    }
+  },
+  "climate": {
+    "hero": {
+      "title": "Climate Change",
+      "subtitle": "The impact of the technology sector on climate change and how Back Market is leading the sustainable transformation."
+    },
+    "impact_sector": {
+      "title": "Impact on the sector",
+      "p1": "The circular economy can help reduce carbon emissions by 15% before 2032. Back Market is leading this transformation in the electronic device market.",
+      "p2": "The technology sector is responsible for 4% of global greenhouse gas emissions, a figure that will double by 2025 if no action is taken.",
+      "p3": "Each refurbished device prevents the extraction of rare materials and the manufacturing of new components, significantly reducing the carbon footprint.",
+      "key_data": {
+        "title": "Key facts:",
+        "item1": "80% of the environmental impact is generated during manufacturing",
+        "item2": "A new smartphone emits 85 kg of CO₂",
+        "item3": "A refurbished smartphone emits only 7 kg of CO₂",
+        "item4": "This represents a 92% reduction"
+      }
+    },
+    "challenges": {
+      "title": "Sector Challenges",
+      "item1": "Emissions reduction across the global supply chain",
+      "item2": "Responsible management of 50 million tons of annual electronic waste",
+      "item3": "Promoting reuse and repair over planned obsolescence",
+      "item4": "Consumer education regarding technological sustainability",
+      "item5": "Transitioning to renewable energy sources in manufacturing",
+      "item6": "Developing more sustainable and biodegradable materials"
+    },
+    "risks": {
+      "title": "Climate Risk Projection",
+      "short_term": {
+        "period": "≤ 2 YEARS",
+        "title": "Short-Term Risks",
+        "r1": "Environmental regulations",
+        "r2": "Consumer pressure",
+        "r3": "Material costs",
+        "level_high": "High",
+        "level_mod": "Moderate"
+      },
+      "long_term": {
+        "period": "IN 10 YEARS",
+        "title": "Long-Term Risks",
+        "r1": "Resource scarcity",
+        "r2": "Regulatory changes",
+        "r3": "Climate impact",
+        "level_crit": "Critical",
+        "level_high": "High"
+      },
+      "response": {
+        "title": "Our Response",
+        "subtitle": "Back Market is actively preparing for these risks through:",
+        "item1": "Investment in advanced refurbishing technologies",
+        "item2": "Partnerships with environmental certifiers",
+        "item3": "Consumer education and awareness",
+        "item4": "Lobbying for circular economy-friendly legislation",
+        "item5": "Carbon neutrality goals by 2030",
+        "item6": "Expansion of the collection and recycling network"
+      }
+    },
+    "gallery_title": "The Visual Impact of Climate Change"
+  },
+  "asg": {
+    "hero": {
+      "title": "ESG (Environmental, Social, and Governance)",
+      "subtitle": "Our comprehensive commitment to sustainability, social responsibility, and ethical governance."
+    },
+    "pillars": {
+      "environmental": {
+        "title": "🌍 Environmental",
+        "i1_title": "E-waste reduction",
+        "i1_desc": "We prevent millions of electronic devices from ending up in landfills",
+        "i2_title": "Circular economy",
+        "i2_desc": "A business model built around item reuse and extension of lifecycles",
+        "i3_title": "Avoided CO₂ emissions",
+        "i3_desc": "1.6 million tons of CO₂ saved up to date",
+        "i4_title": "Responsible resource use",
+        "i4_desc": "Minimizing the extraction of brand new primary raw materials",
+        "i5_title": "Net Zero 2030",
+        "i5_desc": "Targeting net-zero emissions throughout our network by 2030"
+      },
+      "social": {
+        "title": "👥 Social",
+        "i1_title": "Affordable technology access",
+        "i1_desc": "Democratizing access to high-quality technological devices",
+        "i2_title": "Green job creation",
+        "i2_desc": "Supporting over 2,000 jobs within the refurbishing sector",
+        "i3_title": "Sustainability education",
+        "i3_desc": "Awareness initiatives focused on responsible consumption habits",
+        "i4_title": "Digital inclusion",
+        "i4_desc": "Working actively to bridge the global tech gap",
+        "i5_title": "Ethical work conditions",
+        "i5_desc": "Fair trade practices and living wages for all of our partners"
+      },
+      "governance": {
+        "title": "⚖️ Governance",
+        "i1_title": "Operational transparency",
+        "i1_desc": "Annual public reporting regarding environmental and structural metrics",
+        "i2_title": "Quality accreditations",
+        "i2_desc": "ISO 14001, B Corp, and leading green certifications",
+        "i3_title": "Corporate ethics",
+        "i3_desc": "Strict internal code of conduct and active corporate ethics committee",
+        "i4_title": "Environmental compliance",
+        "i4_desc": "Meeting and consistently exceeding global regulatory demands",
+        "i5_title": "Leadership diversity",
+        "i5_desc": "40% female representation in key corporate executive roles"
+      }
+    },
+    "certs": {
+      "title": "Certifications and Accreditations",
+      "bcorp_desc": "Certified as a company that meets the highest standards of social and environmental performance",
+      "iso_desc": "Internationally recognized environmental management system certification",
+      "climate_desc": "Climate neutrality certification across our corporate operations",
+      "ecolabel_desc": "Official ecological label of the European Union"
+    },
+    "commitments": {
+      "title": "Our Commitments",
+      "goals_title": "2030 Targets",
+      "g1": "Carbon neutrality across all corporate operations",
+      "g2": "10 million refurbished devices processed annually",
+      "g3": "100% renewable energy sourcing for all facilities",
+      "g4": "50% workforce diversity ratio across all structural layers",
+      "g5": "Zero waste sent to landfills - total recycling achievement",
+      "progress_title": "Current Progress",
+      "p1": "Emissions reduction",
+      "p2": "Renewable energy",
+      "p3": "Workforce diversity",
+      "p4": "Recycled waste"
+    },
+    "gallery_title": "Our Impact in Pictures",
+    "footer_card": {
+      "title": "Our commitment is your future",
+      "desc": "Every refurbished device is a milestone toward a healthier planet and a fairer society.",
+      "badge": "Together we make a difference"
+    }
+  }
+}

@@ -14,9 +14,9 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
         :animate="{ opacity: 1, y: 0 }"
         :transition="{ duration: 0.8 }"
       >
-        <h1 class="text-4xl sm:text-6xl font-bold mb-6">ASG (Ambiental, Social y Gobernanza)</h1>
+        <h1 class="text-4xl sm:text-6xl font-bold mb-6">{{ $t('asg.hero.title') }}</h1>
         <p class="text-xl sm:text-2xl text-gray-800 max-w-3xl">
-          El nostre compromís integral amb la sostenibilitat, la responsabilitat social i la governança ètica.
+          {{ $t('asg.hero.subtitle') }}
         </p>
       </Motion>
     </section>
@@ -31,41 +31,41 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
           class="bg-gradient-to-br from-green-100 to-green-50 p-8 rounded-3xl border-2 border-black shadow-lg"
         >
           <Globe class="w-16 h-16 mb-6 text-green-700" />
-          <h2 class="text-3xl font-bold mb-6 text-green-900">🌍 Ambiental</h2>
+          <h2 class="text-3xl font-bold mb-6 text-green-900">🌍 {{ $t('asg.pillars.environmental.title') }}</h2>
           <div class="space-y-4">
             <div class="flex items-start gap-3">
               <span class="text-green-700 text-xl">✓</span>
               <div>
-                <h4 class="font-bold mb-1">Reducció de residus electrònics</h4>
-                <p class="text-sm text-gray-700">Evitem que milions de dispositius acabin en abocadors</p>
+                <h4 class="font-bold mb-1">{{ $t('asg.pillars.environmental.i1_title') }}</h4>
+                <p class="text-sm text-gray-700">{{ $t('asg.pillars.environmental.i1_desc') }}</p>
               </div>
             </div>
             <div class="flex items-start gap-3">
               <span class="text-green-700 text-xl">✓</span>
               <div>
-                <h4 class="font-bold mb-1">Economia circular</h4>
-                <p class="text-sm text-gray-700">Model de negoci basat en la reutilització i prolongació de vida útil</p>
+                <h4 class="font-bold mb-1">{{ $t('asg.pillars.environmental.i2_title') }}</h4>
+                <p class="text-sm text-gray-700">{{ $t('asg.pillars.environmental.i2_desc') }}</p>
               </div>
             </div>
             <div class="flex items-start gap-3">
               <span class="text-green-700 text-xl">✓</span>
               <div>
-                <h4 class="font-bold mb-1">Emissions de CO₂ evitades</h4>
-                <p class="text-sm text-gray-700">1.6 milions de tones de CO₂ estalviades fins ara</p>
+                <h4 class="font-bold mb-1">{{ $t('asg.pillars.environmental.i3_title') }}</h4>
+                <p class="text-sm text-gray-700">{{ $t('asg.pillars.environmental.i3_desc') }}</p>
               </div>
             </div>
             <div class="flex items-start gap-3">
               <span class="text-green-700 text-xl">✓</span>
               <div>
-                <h4 class="font-bold mb-1">Ús responsable de recursos</h4>
-                <p class="text-sm text-gray-700">Minimització de l'extracció de materials primaris</p>
+                <h4 class="font-bold mb-1">{{ $t('asg.pillars.environmental.i4_title') }}</h4>
+                <p class="text-sm text-gray-700">{{ $t('asg.pillars.environmental.i4_desc') }}</p>
               </div>
             </div>
             <div class="flex items-start gap-3">
               <span class="text-green-700 text-xl">✓</span>
               <div>
-                <h4 class="font-bold mb-1">Neutralitat de carboni 2030</h4>
-                <p class="text-sm text-gray-700">Objectiu d'emissions netes zero per 2030</p>
+                <h4 class="font-bold mb-1">{{ $t('asg.pillars.environmental.i5_title') }}</h4>
+                <p class="text-sm text-gray-700">{{ $t('asg.pillars.environmental.i5_desc') }}</p>
               </div>
             </div>
           </div>
@@ -79,41 +79,41 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
           class="bg-gradient-to-br from-blue-100 to-blue-50 p-8 rounded-3xl border-2 border-black shadow-lg"
         >
           <Users2 class="w-16 h-16 mb-6 text-blue-700" />
-          <h2 class="text-3xl font-bold mb-6 text-blue-900">👥 Social</h2>
+          <h2 class="text-3xl font-bold mb-6 text-blue-900">{{ $t('asg.pillars.social.title') }}</h2>
           <div class="space-y-4">
             <div class="flex items-start gap-3">
               <span class="text-blue-700 text-xl">✓</span>
               <div>
-                <h4 class="font-bold mb-1">Accés a tecnologia assequible</h4>
-                <p class="text-sm text-gray-700">Democratització de l'accés a dispositius de qualitat</p>
+                <h4 class="font-bold mb-1">{{ $t('asg.pillars.social.i1_title') }}</h4>
+                <p class="text-sm text-gray-700">{{ $t('asg.pillars.social.i1_desc') }}</p>
               </div>
             </div>
             <div class="flex items-start gap-3">
               <span class="text-blue-700 text-xl">✓</span>
               <div>
-                <h4 class="font-bold mb-1">Creació d'ocupació verda</h4>
-                <p class="text-sm text-gray-700">Més de 2.000 llocs de treball en el sector del recondicionament</p>
+                <h4 class="font-bold mb-1">{{ $t('asg.pillars.social.i2_title') }}</h4>
+                <p class="text-sm text-gray-700">{{ $t('asg.pillars.social.i2_desc') }}</p>
               </div>
             </div>
             <div class="flex items-start gap-3">
               <span class="text-blue-700 text-xl">✓</span>
               <div>
-                <h4 class="font-bold mb-1">Educació sostenible</h4>
-                <p class="text-sm text-gray-700">Programes de conscienciació sobre consum responsable</p>
+                <h4 class="font-bold mb-1">{{ $t('asg.pillars.social.i3_title') }}</h4>
+                <p class="text-sm text-gray-700">{{ $t('asg.pillars.social.i3_desc') }}</p>
               </div>
             </div>
             <div class="flex items-start gap-3">
               <span class="text-blue-700 text-xl">✓</span>
               <div>
-                <h4 class="font-bold mb-1">Inclusió digital</h4>
-                <p class="text-sm text-gray-700">Reducció de la bretxa tecnològica</p>
+                <h4 class="font-bold mb-1">{{ $t('asg.pillars.social.i4_title') }}</h4>
+                <p class="text-sm text-gray-700">{{ $t('asg.pillars.social.i4_desc') }}</p>
               </div>
             </div>
             <div class="flex items-start gap-3">
               <span class="text-blue-700 text-xl">✓</span>
               <div>
-                <h4 class="font-bold mb-1">Condicions laborals ètiques</h4>
-                <p class="text-sm text-gray-700">Comerç just i salaris dignes per als nostres partners</p>
+                <h4 class="font-bold mb-1">{{ $t('asg.pillars.social.i5_title') }}</h4>
+                <p class="text-sm text-gray-700">{{ $t('asg.pillars.social.i5_desc') }}</p>
               </div>
             </div>
           </div>
@@ -127,41 +127,41 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
           class="bg-gradient-to-br from-purple-100 to-purple-50 p-8 rounded-3xl border-2 border-black shadow-lg"
         >
           <Scale class="w-16 h-16 mb-6 text-purple-700" />
-          <h2 class="text-3xl font-bold mb-6 text-purple-900">⚖️ Governança</h2>
+          <h2 class="text-3xl font-bold mb-6 text-purple-900">{{ $t('asg.pillars.governance.title') }}</h2>
           <div class="space-y-4">
             <div class="flex items-start gap-3">
               <span class="text-purple-700 text-xl">✓</span>
               <div>
-                <h4 class="font-bold mb-1">Transparència en operacions</h4>
-                <p class="text-sm text-gray-700">Informes públics anuals sobre impacte i sostenibilitat</p>
+                <h4 class="font-bold mb-1">{{ $t('asg.pillars.governance.i1_title') }}</h4>
+                <p class="text-sm text-gray-700">{{ $t('asg.pillars.governance.i1_desc') }}</p>
               </div>
             </div>
             <div class="flex items-start gap-3">
               <span class="text-purple-700 text-xl">✓</span>
               <div>
-                <h4 class="font-bold mb-1">Certificacions de qualitat</h4>
-                <p class="text-sm text-gray-700">ISO 14001, B Corp, i altres certificacions ambientals</p>
+                <h4 class="font-bold mb-1">{{ $t('asg.pillars.governance.i2_title') }}</h4>
+                <p class="text-sm text-gray-700">{{ $t('asg.pillars.governance.i2_desc') }}</p>
               </div>
             </div>
             <div class="flex items-start gap-3">
               <span class="text-purple-700 text-xl">✓</span>
               <div>
-                <h4 class="font-bold mb-1">Ètica empresarial</h4>
-                <p class="text-sm text-gray-700">Codi de conducta estricte i comitè d'ètica actiu</p>
+                <h4 class="font-bold mb-1">{{ $t('asg.pillars.governance.i3_title') }}</h4>
+                <p class="text-sm text-gray-700">{{ $t('asg.pillars.governance.i3_desc') }}</p>
               </div>
             </div>
             <div class="flex items-start gap-3">
               <span class="text-purple-700 text-xl">✓</span>
               <div>
-                <h4 class="font-bold mb-1">Compliance ambiental</h4>
-                <p class="text-sm text-gray-700">Compliment i superació de totes les regulacions</p>
+                <h4 class="font-bold mb-1">{{ $t('asg.pillars.governance.i4_title') }}</h4>
+                <p class="text-sm text-gray-700">{{ $t('asg.pillars.governance.i4_desc') }}</p>
               </div>
             </div>
             <div class="flex items-start gap-3">
               <span class="text-purple-700 text-xl">✓</span>
               <div>
-                <h4 class="font-bold mb-1">Diversitat en lideratge</h4>
-                <p class="text-sm text-gray-700">40% de dones en posicions directives</p>
+                <h4 class="font-bold mb-1">{{ $t('asg.pillars.governance.i5_title') }}</h4>
+                <p class="text-sm text-gray-700">{{ $t('asg.pillars.governance.i5_desc') }}</p>
               </div>
             </div>
           </div>
@@ -179,7 +179,7 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
         >
           <div class="flex items-center justify-center gap-3 mb-12">
             <Sparkles class="w-12 h-12" />
-            <h2 class="text-3xl sm:text-4xl font-bold text-center">Certificacions i Reconeixements</h2>
+            <h2 class="text-3xl sm:text-4xl font-bold text-center">{{ $t('asg.certs.title') }}</h2>
           </div>
 
           <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -192,7 +192,7 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
             >
               <div class="text-5xl mb-4">🏆</div>
               <h4 class="font-bold text-xl mb-2">B Corporation</h4>
-              <p class="text-sm text-gray-600">Certificat com a empresa que compleix els estàndards més alts de rendiment social i ambiental</p>
+              <p class="text-sm text-gray-600">{{ $t('asg.certs.bcorp_desc') }}</p>
             </Motion>
 
             <Motion
@@ -204,7 +204,7 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
             >
               <div class="text-5xl mb-4">🌿</div>
               <h4 class="font-bold text-xl mb-2">ISO 14001</h4>
-              <p class="text-sm text-gray-600">Certificació del sistema de gestió ambiental reconegut internacionalment</p>
+              <p class="text-sm text-gray-600">{{ $t('asg.certs.iso_desc') }}</p>
             </Motion>
 
             <Motion
@@ -216,7 +216,7 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
             >
               <div class="text-5xl mb-4">⭐</div>
               <h4 class="font-bold text-xl mb-2">Climate Neutral</h4>
-              <p class="text-sm text-gray-600">Certificació de neutralitat climàtica per les nostres operacions</p>
+              <p class="text-sm text-gray-600">{{ $t('asg.certs.climate_desc') }}</p>
             </Motion>
 
             <Motion
@@ -228,7 +228,7 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
             >
               <div class="text-5xl mb-4">✨</div>
               <h4 class="font-bold text-xl mb-2">EU Ecolabel</h4>
-              <p class="text-sm text-gray-600">Etiqueta ecològica oficial de la Unió Europea</p>
+              <p class="text-sm text-gray-600">{{ $t('asg.certs.ecolabel_desc') }}</p>
             </Motion>
           </div>
         </Motion>
@@ -244,35 +244,35 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
       >
         <div class="flex items-center justify-center gap-3 mb-12">
           <HeartHandshake class="w-12 h-12" />
-          <h2 class="text-3xl sm:text-4xl font-bold text-center">Els Nostres Compromisos</h2>
+          <h2 class="text-3xl sm:text-4xl font-bold text-center">{{ $t('asg.commitments.title') }}</h2>
         </div>
 
         <div class="grid md:grid-cols-2 gap-8">
           <div class="bg-white/60 p-8 rounded-2xl border-2 border-black">
             <h3 class="text-2xl font-bold mb-6 flex items-center gap-3">
               <span class="text-3xl">🎯</span>
-              Objectius 2030
+              {{ $t('asg.commitments.goals_title') }}
             </h3>
             <ul class="space-y-3">
               <li class="flex items-start gap-3">
                 <span class="text-green-600 font-bold">•</span>
-                <span><strong>Neutralitat de carboni</strong> en totes les nostres operacions</span>
+                <span>{{ $t('asg.commitments.g1') }}</span>
               </li>
               <li class="flex items-start gap-3">
                 <span class="text-green-600 font-bold">•</span>
-                <span><strong>10 milions de dispositius</strong> reacondicionats anualment</span>
+                <span>{{ $t('asg.commitments.g2') }}</span>
               </li>
               <li class="flex items-start gap-3">
                 <span class="text-green-600 font-bold">•</span>
-                <span><strong>100% energia renovable</strong> en totes les instal·lacions</span>
+                <span>{{ $t('asg.commitments.g3') }}</span>
               </li>
               <li class="flex items-start gap-3">
                 <span class="text-green-600 font-bold">•</span>
-                <span><strong>50% de diversitat</strong> en tots els nivells de l'empresa</span>
+                <span>{{ $t('asg.commitments.g4') }}</span>
               </li>
               <li class="flex items-start gap-3">
                 <span class="text-green-600 font-bold">•</span>
-                <span><strong>Zero residus</strong> als abocadors - reciclatge total</span>
+                <span>{{ $t('asg.commitments.g5') }}</span>
               </li>
             </ul>
           </div>
@@ -280,12 +280,12 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
           <div class="bg-white/60 p-8 rounded-2xl border-2 border-black">
             <h3 class="text-2xl font-bold mb-6 flex items-center gap-3">
               <span class="text-3xl">📊</span>
-              Progrés Actual
+              {{ $t('asg.commitments.progress_title') }}
             </h3>
             <div class="space-y-4">
               <div>
                 <div class="flex justify-between mb-2">
-                  <span class="font-semibold">Reducció d'emissions</span>
+                  <span class="font-semibold">{{ $t('asg.commitments.p1') }}</span>
                   <span class="font-bold">67%</span>
                 </div>
                 <div class="h-4 bg-gray-200 rounded-full overflow-hidden">
@@ -300,7 +300,7 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
               </div>
               <div>
                 <div class="flex justify-between mb-2">
-                  <span class="font-semibold">Energia renovable</span>
+                  <span class="font-semibold">{{ $t('asg.commitments.p2') }}</span>
                   <span class="font-bold">84%</span>
                 </div>
                 <div class="h-4 bg-gray-200 rounded-full overflow-hidden">
@@ -315,7 +315,7 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
               </div>
               <div>
                 <div class="flex justify-between mb-2">
-                  <span class="font-semibold">Diversitat en plantilla</span>
+                  <span class="font-semibold">{{ $t('asg.commitments.p3') }}</span>
                   <span class="font-bold">42%</span>
                 </div>
                 <div class="h-4 bg-gray-200 rounded-full overflow-hidden">
@@ -330,7 +330,7 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
               </div>
               <div>
                 <div class="flex justify-between mb-2">
-                  <span class="font-semibold">Residus reciclats</span>
+                  <span class="font-semibold">{{ $t('asg.commitments.p4') }}</span>
                   <span class="font-bold">91%</span>
                 </div>
                 <div class="h-4 bg-gray-200 rounded-full overflow-hidden">
@@ -350,7 +350,7 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
     </section>
 
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 mb-16">
-      <h3 class="text-3xl font-bold mb-8 text-center">El Nostre Impacte en Imatges</h3>
+      <h3 class="text-3xl font-bold mb-8 text-center">{{ $t('asg.gallery_title') }}</h3>
       <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
         <Motion
           :initial="{ opacity: 0 }"
@@ -404,13 +404,13 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
       >
         <Shield class="w-20 h-20 mx-auto mb-6" />
         <h2 class="text-3xl sm:text-4xl font-bold mb-4">
-          El nostre compromís és el teu futur
+          {{ $t('asg.footer_card.title') }}
         </h2>
         <p class="text-xl mb-8 max-w-2xl mx-auto">
-          Cada dispositiu reacondicionat és un pas cap a un planeta més sostenible i una societat més justa.
+          {{ $t('asg.footer_card.desc') }}
         </p>
         <div class="inline-block px-8 py-4 bg-[#E8F48C] text-[#4A5F3B] rounded-full border-2 border-black font-bold">
-          Junts fem la diferència
+          {{ $t('asg.footer_card.badge') }}
         </div>
       </Motion>
     </section>

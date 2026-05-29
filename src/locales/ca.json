@@ -1,0 +1,306 @@
+{
+    "nav": {
+      "home": "Inici",
+      "empresa": "perquè aquesta Empresa",
+      "climate": "Canvi Climàtic",
+      "asg": "ASG",
+      "contact": "Contacte"
+    },
+  "home": {
+    "hero": {
+      "title": "Impacte Mediambiental de Back Market",
+      "description": "Descobreix com Back Market està revolucionant el mercat de dispositius reacondicionats i el seu compromís amb la sostenibilitat ambiental.",
+      "cta": "Descobreix més"
+    },
+    "impact": {
+      "title": "El Nostre Impacte",
+      "circular_economy": {
+        "title": "Economia Circular",
+        "description": "Donem una segona vida als dispositius electrònics, reduint la necessitat d'extreure nous materials i fabricar des de zero."
+      },
+      "co2": {
+        "title": "Reducció de CO₂",
+        "description": "Cada dispositiu reacondicionat evita l'emissió de tones de CO₂ comparat amb la fabricació d'un de nou."
+      },
+      "social": {
+        "title": "Impacte Social",
+        "description": "Fem la tecnologia més accessible i contribuïm a la creació d'llocs de treball verds en el sector del reciclatge."
+      }
+    },
+    "cta_section": {
+      "title": "Uneix-te a la Revolució Sostenible",
+      "description": "Descobreix com Back Market està canviant el món, un dispositiu a la vegada.",
+      "btn_mission": "La Nostra Missió",
+      "btn_contact": "Contacta'ns"
+    }
+  },
+  "empresa": {
+    "hero": {
+      "title": "Perquè aquesta empresa?",
+      "subtitle": "Back Market és el mercat líder en dispositius electrònics reacondicionats, compromesos amb un futur més sostenible."
+    },
+    "reasons": {
+      "ewaste": {
+        "title": "Reducció significativa de residus electrònics",
+        "description": "Cada any es generen 50 milions de tones de residus electrònics a nivell mundial. Back Market dóna una segona vida als dispositius, evitant que acabin en abocadors."
+      },
+      "circular": {
+        "title": "Compromís amb l'economia circular",
+        "description": "Fomentem un model econòmic on els productes mantenen el seu valor el màxim temps possible, minimitzant l'ús de recursos naturals i la generació de residus."
+      },
+      "transparency": {
+        "title": "Transparència en les pràctiques sostenibles",
+        "description": "Publiquem regularment informes detallats sobre el nostre impacte ambiental, certificacions i objectius de sostenibilitat per mantenir la confiança dels nostres clients."
+      },
+      "quality": {
+        "title": "Certificació i garantia de qualitat",
+        "description": "Tots els dispositius passen per un procés rigorós de 40 punts de control per assegurar que funcionen com nous, amb garantia mínima de 12 mesos."
+      }
+    },
+    "stats": {
+      "title": "El Nostre Impacte en Xifres",
+      "ewaste_reduction": {
+        "label": "reducció de residus",
+        "sub": "vs fabricació nova"
+      },
+      "co2_avoided": {
+        "label": "tones de CO₂ evitades",
+        "sub": "fins a la data"
+      },
+      "satisfaction": {
+        "label": "puntuació de satisfacció",
+        "sub": "sobre 100"
+      },
+      "devices_sold": {
+        "label": "dispositius venuts",
+        "sub": "des de 2014"
+      }
+    },
+    "comparison": {
+      "title": "Comparativa: Dispositiu Nou vs. Reacondicionat",
+      "new": {
+        "title": "Dispositiu Nou",
+        "item1": "80 kg de matèries primeres extretes",
+        "item2": "1200 litres d'aigua utilitzada",
+        "item3": "85 kg de CO₂ emès",
+        "item4": "Processos de fabricació intensius",
+        "item5": "Embalatge nou i transport global"
+      },
+      "refurbished": {
+        "title": "Dispositiu Reacondicionat",
+        "item1": "0 kg de noves matèries primeres",
+        "item2": "50 litres d'aigua (neteja i proves)",
+        "item3": "7 kg de CO₂ emès (transport i procés)",
+        "item4": "Només procés de recondicionament",
+        "item5": "Embalatge reciclat i transport local"
+      }
+    },
+    "certification": {
+      "title": "El Nostre Procés de Certificació",
+      "step1": {
+        "title": "Diagnòstic Complet",
+        "description": "Cada dispositiu passa per una avaluació exhaustiva de 40 punts de control per identificar qualsevol problema."
+      },
+      "step2": {
+        "title": "Recondicionament",
+        "description": "Neteja professional, substitució de components defectuosos i actualització de software per garantir el rendiment òptim."
+      },
+      "step3": {
+        "title": "Certificació Final",
+        "description": "Proves finals rigoroses i emissió del certificat Back Market amb garantia mínima de 12 mesos."
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contacta amb Nosaltres",
+      "subtitle": "Tens alguna pregunta sobre sostenibilitat, els nostres productes o vols col·laborar amb nosaltres? Estem aquí per ajudar-te."
+    },
+    "form": {
+      "title": "Envia'ns un Missatge",
+      "label_name": "Nom complet *",
+      "placeholder_name": "El teu nom",
+      "label_email": "Email *",
+      "placeholder_email": "el.teu@email.com",
+      "label_subject": "Assumpte *",
+      "subject_default": "Selecciona un assumpte",
+      "subject_info": "Informació general",
+      "subject_sustainability": "Preguntes sobre sostenibilitat",
+      "subject_collaboration": "Oportunitats de col·laboració",
+      "subject_press": "Premsa i mitjans",
+      "subject_other": "Altres",
+      "label_message": "Missatge *",
+      "placeholder_message": "Escriu el teu missatge aquí...",
+      "submit_btn": "Enviar Missatge",
+      "alert_success": "Gràcies pel teu missatge! Ens posarem en contacte aviat."
+    },
+    "info_box": {
+      "title": "Informació de Contacte",
+      "hours_title": "Horari d'Atenció",
+      "weekdays_label": "Dilluns - Divendres:",
+      "weekdays_value": "9:00 - 18:00",
+      "weekend_label": "Cap de setmana:",
+      "weekend_value": "Tancat",
+      "social_title": "Xarxes Socials",
+      "social_desc": "Segueix-nos per estar al dia de les últimes novetats sobre sostenibilitat i tecnologia:",
+      "social_email": "Email",
+      "tlf": "Telèfon",
+      "address_title": "Oficina Central"
+
+    },
+    "faqs": {
+      "title": "Preguntes Freqüents",
+      "q1": {
+        "question": "Com puc col·laborar amb Back Market?",
+        "answer": "Estem oberts a col·laboracions amb empreses, organitzacions i influencers que comparteixen els nostres valors de sostenibilitat. Escriu-nos a sustainability@backmarket.com."
+      },
+      "q2": {
+        "question": "On puc trobar els vostres informes de sostenibilitat?",
+        "answer": "Publiquem informes instruïts i anuals de sostenibilitat al nostre lloc web. També enviem actualitzacions trimestrals als subscriptors del nostre butlletí."
+      },
+      "q3": {
+        "question": "Necessito informació per a un projecte educatiu",
+        "answer": "Estem encantats d'ajudar amb projectes educatius. Contacta'ns amb els detalls del teu projecte i et proporcionarem la informació necessària."
+      },
+      "q4": {
+        "question": "Sou premsa i voleu entrevistar-nos?",
+        "answer": "Per a consultes de premsa, si us plau contacta amb el nostre equip de comunicació a press@backmarket.com amb el màxim de detalls possible."
+      }
+    }
+  },
+  "climate": {
+    "hero": {
+      "title": "Canvi Climàtic",
+      "subtitle": "L'impacte del sector tecnològic en el canvi climàtic i com Back Market està liderant la transformació sostenible."
+    },
+    "impact_sector": {
+      "title": "Impacte en el sector",
+      "p1": "L'economia circular pot ajudar a reduir les emissions de carboni en un 15% abans del 2032. Back Market està liderant aquesta transformació al mercat de dispositius electrònics.",
+      "p2": "El sector tecnològic és responsable del 4% de les emissions globals de gasos d'efecte hivernacle, una xifra que es duplicarà el 2025 si no es prenen mesures.",
+      "p3": "Cada dispositiu reacondicionat evita l'extracció de materials rars i la fabricació de nous components, reduint significativament la petjada de carboni.",
+      "key_data": {
+        "title": "Dades clau:",
+        "item1": "80% de l'impacte ambiental es genera en la fabricació",
+        "item2": "Un smartphone nou emet 85 kg de CO₂",
+        "item3": "Un smartphone reacondicionat només 7 kg de CO₂",
+        "item4": "Això representa una reducció del 92%"
+      }
+    },
+    "challenges": {
+      "title": "Desafiaments del sector",
+      "item1": "Reducció d'emissions en la cadena de subministrament global",
+      "item2": "Gestió responsable dels 50 milions de tones de residus electrònics anuals",
+      "item3": "Foment de la reutilització i reparació enfront de l'obsolescència programada",
+      "item4": "Educació del consumidor sobre la sostenibilitat tecnològica",
+      "item5": "Transició a fonts d'energia renovable en la fabricació",
+      "item6": "Desenvolupament de materials més sostenibles i biodegradables"
+    },
+    "risks": {
+      "title": "Projecció de Riscos Climàtics",
+      "short_term": {
+        "period": "≤ 2 ANYS",
+        "title": "Riscos a Curt Termini",
+        "r1": "Regulacions ambientals",
+        "r2": "Pressió dels consumidors",
+        "r3": "Cost de materials",
+        "level_high": "Alta",
+        "level_mod": "Moderada"
+      },
+      "long_term": {
+        "period": "EN 10 ANYS",
+        "title": "Riscos a Llarg Termini",
+        "r1": "Escassetat de recursos",
+        "r2": "Canvis regulatoris",
+        "r3": "Impacte climàtic",
+        "level_crit": "Crítica",
+        "level_high": "Alta"
+      },
+      "response": {
+        "title": "La Nostra Resposta",
+        "subtitle": "Back Market està preparant-se activament per aquests riscos mitjançant:",
+        "item1": "Inversió en tecnologies de recondicionament avançades",
+        "item2": "Partnerships amb certificadors ambientals",
+        "item3": "Educació i sensibilització dels consumidors",
+        "item4": "Lobby per legislació favorable a l'economia circular",
+        "item5": "Objectius de neutralitat de carboni per 2030",
+        "item6": "Expansió de la xarxa de recollida i reciclatge"
+        
+      }
+    },
+    "gallery_title": "L'Impacte Visual del Canvi Climàtic"
+  },
+  "asg": {
+    "hero": {
+      "title": "ASG (Ambiental, Social y Gobernanza)",
+      "subtitle": "El nostre compromís integral amb la sostenibilitat, la responsabilitat social i la governança ètica."
+    },
+    "pillars": {
+      "environmental": {
+        "title": "🌍 Ambiental",
+        "i1_title": "Reducció de residus electrònics",
+        "i1_desc": "Evitem que milions de dispositius acabin en abocadors",
+        "i2_title": "Economia circular",
+        "i2_desc": "Model de negoci basat en la reutilització i prolongació de vida útil",
+        "i3_title": "Emissions de CO₂ evitades",
+        "i3_desc": "1.6 milions de tones de CO₂ estalviades fins ara",
+        "i4_title": "Ús responsable de recursos",
+        "i4_desc": "Minimització de l'extracció de materials primaris",
+        "i5_title": "Neutralitat de carboni 2030",
+        "i5_desc": "Objectiu d'emissions netes zero per 2030"
+      },
+      "social": {
+        "title": "👥 Social",
+        "i1_title": "Accés a tecnologia assequible",
+        "i1_desc": "Democratització de l'accés a dispositius de qualitat",
+        "i2_title": "Creació d'ocupació verda",
+        "i2_desc": "Més de 2.000 llocs de treball en el sector del recondicionament",
+        "i3_title": "Educació sostenible",
+        "i3_desc": "Programes de conscienciació sobre consum responsable",
+        "i4_title": "Inclusió digital",
+        "i4_desc": "Reducció de la bretxa tecnològica",
+        "i5_title": "Condicions laborals ètiques",
+        "i5_desc": "Comerç just i salaris dignes per als nostres partners"
+      },
+      "governance": {
+        "title": "⚖️ Governança",
+        "i1_title": "Transparència en operacions",
+        "i1_desc": "Informes públics anuals sobre impacte i sostenibilitat",
+        "i2_title": "Certificacions de qualitat",
+        "i2_desc": "ISO 14001, B Corp, i altres certificacions ambientals",
+        "i3_title": "Ètica empresarial",
+        "i3_desc": "Codi de conducta estricte i comitè d'ètica actiu",
+        "i4_title": "Compliance ambiental",
+        "i4_desc": "Compliment i superació de totes les regulacions",
+        "i5_title": "Diversitat en lideratge",
+        "i5_desc": "40% de dones en posicions directives"
+      }
+    },
+    "certs": {
+      "title": "Certificacions i Reconeixements",
+      "bcorp_desc": "Certificat com a empresa que compleix els estàndards més alts de rendiment social i ambiental",
+      "iso_desc": "Certificació del sistema de gestió ambiental reconegut internacionalment",
+      "climate_desc": "Certificació de neutralitat climàtica per les nostres operacions",
+      "ecolabel_desc": "Etiqueta ecològica oficial de la Unió Europea"
+    },
+    "commitments": {
+      "title": "Els Nostres Compromisos",
+      "goals_title": "Objectius 2030",
+      "g1": "Neutralitat de carboni en totes les nostres operacions",
+      "g2": "10 milions de dispositius reacondicionats anualment",
+      "g3": "100% energia renovable en totes les instal·lacions",
+      "g4": "50% de diversitat en tots els nivells de l'empresa",
+      "g5": "Zero residus als abocadors - reciclatge total",
+      "progress_title": "Progrés Actual",
+      "p1": "Reducció d'emissions",
+      "p2": "Energia renovable",
+      "p3": "Diversitat en plantilla",
+      "p4": "Residus reciclats"
+    },
+    "gallery_title": "El Nostre Impacte en Imatges",
+    "footer_card": {
+      "title": "El nostre compromís és el teu futur",
+      "desc": "Cada dispositiu reacondicionat és un pas cap a un planeta més sostenible i una societat més justa.",
+      "badge": "Junts fem la diferència"
+    }
+  }
+}

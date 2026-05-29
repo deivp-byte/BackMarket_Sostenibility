@@ -13,9 +13,9 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
         :animate="{ opacity: 1, y: 0 }"
         :transition="{ duration: 0.8 }"
       >
-        <h1 class="text-4xl sm:text-6xl font-bold mb-6">Perqué aquesta empresa?</h1>
+        <h1 class="text-4xl sm:text-6xl font-bold mb-6">{{ $t('empresa.hero.title') }}</h1>
         <p class="text-xl sm:text-2xl text-gray-800 max-w-3xl">
-          Back Market és el mercat líder en dispositius electrònics reacondicionats, compromesos amb un futur més sostenible.
+          {{ $t('empresa.hero.subtitle') }}
         </p>
       </Motion>
     </section>
@@ -32,10 +32,9 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
           <div class="flex items-start gap-4">
             <CheckCircle class="w-8 h-8 flex-shrink-0 mt-1" />
             <div>
-              <h3 class="text-2xl font-bold mb-2">Reducció significativa de residus electrònics</h3>
+              <h3 class="text-2xl font-bold mb-2">{{ $t('empresa.reasons.ewaste.title') }}</h3>
               <p class="text-gray-700">
-                Cada any es generen 50 milions de tones de residus electrònics a nivell mundial. Back Market dóna una segona vida
-                als dispositius, evitant que acabin en abocadors.
+                {{ $t('empresa.reasons.ewaste.description') }}
               </p>
             </div>
           </div>
@@ -43,10 +42,9 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
           <div class="flex items-start gap-4">
             <CheckCircle class="w-8 h-8 flex-shrink-0 mt-1" />
             <div>
-              <h3 class="text-2xl font-bold mb-2">Compromís amb l'economia circular</h3>
+              <h3 class="text-2xl font-bold mb-2">{{ $t('empresa.reasons.circular.title') }}</h3>
               <p class="text-gray-700">
-                Fomentem un model econòmic on els productes mantenen el seu valor el màxim temps possible, minimitzant l'ús
-                de recursos naturals i la generació de residus.
+                {{ $t('empresa.reasons.circular.description') }}
               </p>
             </div>
           </div>
@@ -54,10 +52,9 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
           <div class="flex items-start gap-4">
             <CheckCircle class="w-8 h-8 flex-shrink-0 mt-1" />
             <div>
-              <h3 class="text-2xl font-bold mb-2">Transparència en les pràctiques sostenibles</h3>
+              <h3 class="text-2xl font-bold mb-2">{{ $t('empresa.reasons.transparency.title') }}</h3>
               <p class="text-gray-700">
-                Publiquem regularment informes detallats sobre el nostre impacte ambiental, certificacions i objectius
-                de sostenibilitat per mantenir la confiança dels nostres clients.
+                {{ $t('empresa.reasons.transparency.description') }}
               </p>
             </div>
           </div>
@@ -65,10 +62,9 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
           <div class="flex items-start gap-4">
             <CheckCircle class="w-8 h-8 flex-shrink-0 mt-1" />
             <div>
-              <h3 class="text-2xl font-bold mb-2">Certificació i garantia de qualitat</h3>
+              <h3 class="text-2xl font-bold mb-2">{{ $t('empresa.reasons.quality.title') }}</h3>
               <p class="text-gray-700">
-                Tots els dispositius passen per un procés rigorós de 40 punts de control per assegurar que funcionen com nous,
-                amb garantia mínima de 12 mesos.
+                {{ $t('empresa.reasons.quality.description') }}
               </p>
             </div>
           </div>
@@ -101,7 +97,7 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
 
     <section class="bg-white/40 py-16">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center">El Nostre Impacte en Xifres</h2>
+        <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center">{{ $t('empresa.stats.title') }}</h2>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           <Motion
@@ -113,8 +109,8 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
           >
             <TrendingDown class="w-12 h-12 mx-auto mb-4" />
             <div class="text-5xl sm:text-6xl font-bold mb-2">92%</div>
-            <p class="text-sm sm:text-base font-semibold">reducció de residus</p>
-            <p class="text-xs text-gray-600 mt-2">vs fabricació nova</p>
+            <p class="text-sm sm:text-base font-semibold">{{ $t('empresa.stats.ewaste_reduction.label') }}</p>
+            <p class="text-xs text-gray-600 mt-2">{{ $t('empresa.stats.ewaste_reduction.sub') }}</p>
           </Motion>
 
           <Motion
@@ -126,8 +122,8 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
           >
             <Target class="w-12 h-12 mx-auto mb-4" />
             <div class="text-5xl sm:text-6xl font-bold mb-2">1.6m</div>
-            <p class="text-sm sm:text-base font-semibold">tones de CO₂ evitades</p>
-            <p class="text-xs text-gray-600 mt-2">fins a la data</p>
+            <p class="text-sm sm:text-base font-semibold">{{ $t('empresa.stats.co2_avoided.label') }}</p>
+            <p class="text-xs text-gray-600 mt-2">{{ $t('empresa.stats.co2_avoided.sub') }}</p>
           </Motion>
 
           <Motion
@@ -139,8 +135,8 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
           >
             <Award class="w-12 h-12 mx-auto mb-4" />
             <div class="text-5xl sm:text-6xl font-bold mb-2">93.2</div>
-            <p class="text-sm sm:text-base font-semibold">puntuació de satisfacció</p>
-            <p class="text-xs text-gray-600 mt-2">sobre 100</p>
+            <p class="text-sm sm:text-base font-semibold">{{ $t('empresa.stats.satisfaction.label') }}</p>
+            <p class="text-xs text-gray-600 mt-2">{{ $t('empresa.stats.satisfaction.sub') }}</p>
           </Motion>
 
           <Motion
@@ -152,8 +148,8 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
           >
             <CheckCircle class="w-12 h-12 mx-auto mb-4" />
             <div class="text-5xl sm:text-6xl font-bold mb-2">5M+</div>
-            <p class="text-sm sm:text-base font-semibold">dispositius venuts</p>
-            <p class="text-xs text-gray-600 mt-2">des de 2014</p>
+            <p class="text-sm sm:text-base font-semibold">{{ $t('empresa.stats.devices_sold.label') }}</p>
+            <p class="text-xs text-gray-600 mt-2">{{ $t('empresa.stats.devices_sold.sub') }}</p>
           </Motion>
         </div>
 
@@ -165,27 +161,27 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
           class="bg-[#4A5F3B] text-[#E8F48C] p-8 sm:p-12 rounded-3xl border-2 border-black"
         >
           <h3 class="text-2xl sm:text-3xl font-bold mb-8 text-center">
-            Comparativa: Dispositiu Nou vs. Reacondicionat
+            {{ $t('empresa.comparison.title') }}
           </h3>
           <div class="grid md:grid-cols-2 gap-8">
             <div>
-              <h4 class="text-xl font-bold mb-4 border-b-2 border-[#E8F48C] pb-2">📱 Dispositiu Nou</h4>
+              <h4 class="text-xl font-bold mb-4 border-b-2 border-[#E8F48C] pb-2">📱 {{ $t('empresa.comparison.new.title') }}</h4>
               <ul class="space-y-3">
-                <li>• 80 kg de matèries primeres extretes</li>
-                <li>• 1200 litres d'aigua utilitzada</li>
-                <li>• 85 kg de CO₂ emès</li>
-                <li>• Processos de fabricació intensius</li>
-                <li>• Embalatge nou i transport global</li>
+                <li>• {{ $t('empresa.comparison.new.item1') }}</li>
+                <li>• {{ $t('empresa.comparison.new.item2') }}</li>
+                <li>• {{ $t('empresa.comparison.new.item3') }}</li>
+                <li>• {{ $t('empresa.comparison.new.item4') }}</li>
+                <li>• {{ $t('empresa.comparison.new.item5') }}</li>
               </ul>
             </div>
             <div>
-              <h4 class="text-xl font-bold mb-4 border-b-2 border-[#E8F48C] pb-2">♻️ Dispositiu Reacondicionat</h4>
+              <h4 class="text-xl font-bold mb-4 border-b-2 border-[#E8F48C] pb-2">♻️ {{ $t('empresa.comparison.refurbished.title') }}</h4>
               <ul class="space-y-3">
-                <li>• 0 kg de noves matèries primeres</li>
-                <li>• 50 litres d'aigua (neteja i proves)</li>
-                <li>• 7 kg de CO₂ emès (transport i procés)</li>
-                <li>• Només procés de recondicionament</li>
-                <li>• Embalatge reciclat i transport local</li>
+                <li>• {{ $t('empresa.comparison.refurbished.item1') }}</li>
+                <li>• {{ $t('empresa.comparison.refurbished.item2') }}</li>
+                <li>• {{ $t('empresa.comparison.refurbished.item3') }}</li>
+                <li>• {{ $t('empresa.comparison.refurbished.item4') }}</li>
+                <li>• {{ $t('empresa.comparison.refurbished.item5') }}</li>
               </ul>
             </div>
           </div>
@@ -195,7 +191,7 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
 
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       <h2 class="text-3xl sm:text-4xl font-bold mb-12 text-center">
-        El Nostre Procés de Certificació
+        {{ $t('empresa.certification.title') }}
       </h2>
       <div class="grid md:grid-cols-3 gap-6">
         <Motion
@@ -206,9 +202,9 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
           class="bg-white/60 p-6 rounded-2xl border-2 border-black"
         >
           <div class="text-4xl font-bold mb-4">01</div>
-          <h3 class="text-xl font-bold mb-3">Diagnòstic Complet</h3>
+          <h3 class="text-xl font-bold mb-3">{{ $t('empresa.certification.step1.title') }}</h3>
           <p class="text-gray-700">
-            Cada dispositiu passa per una avaluació exhaustiva de 40 punts de control per identificar qualsevol problema.
+            {{ $t('empresa.certification.step1.description') }}
           </p>
         </Motion>
 
@@ -220,9 +216,9 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
           class="bg-white/60 p-6 rounded-2xl border-2 border-black"
         >
           <div class="text-4xl font-bold mb-4">02</div>
-          <h3 class="text-xl font-bold mb-3">Recondicionament</h3>
+          <h3 class="text-xl font-bold mb-3">{{ $t('empresa.certification.step2.title') }}</h3>
           <p class="text-gray-700">
-            Neteja professional, substitució de components defectuosos i actualització de software per garantir el rendiment òptim.
+            {{ $t('empresa.certification.step1.description') }}
           </p>
         </Motion>
 
@@ -234,9 +230,9 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
           class="bg-white/60 p-6 rounded-2xl border-2 border-black"
         >
           <div class="text-4xl font-bold mb-4">03</div>
-          <h3 class="text-xl font-bold mb-3">Certificació Final</h3>
+          <h3 class="text-xl font-bold mb-3">{{ $t('empresa.certification.step3.title') }}</h3>
           <p class="text-gray-700">
-            Proves finals rigoroses i emissió del certificat Back Market amb garantia mínima de 12 mesos.
+            {{ $t('empresa.certification.step1.description') }}
           </p>
         </Motion>
       </div>

@@ -36,17 +36,16 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
           class="space-y-6"
         >
           <h1 class="text-4xl sm:text-6xl font-bold leading-tight">
-            Impacto Medioambiental de Back Market
+            {{ $t('home.hero.title') }}
           </h1>
           <p class="text-lg sm:text-xl text-gray-800">
-            Descubre cómo Back Market está revolucionando el mercado de dispositivos reacondicionados
-            y su compromiso con la sostenibilidad ambiental.
+            {{ $t('home.hero.description') }}
           </p>
           <RouterLink
             to="/empresa"
             class="inline-flex items-center gap-2 px-8 py-4 bg-black text-[#E8F48C] rounded-full border-2 border-black hover:bg-gray-800 transition-all transform hover:scale-105"
           >
-            Descubre más
+            {{ $t('home.hero.cta') }}
             <ArrowRight :size="20" />
           </RouterLink>
         </Motion>
@@ -114,7 +113,7 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
     </section>
 
     <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
-      <h2 class="text-3xl sm:text-5xl font-bold mb-12 text-center">Nuestro Impacto</h2>
+      <h2 class="text-3xl sm:text-5xl font-bold mb-12 text-center">{{ $t('home.impact.title') }}</h2>
       <div class="grid md:grid-cols-3 gap-8">
         <Motion
           :initial="{ opacity: 0, y: 30 }"
@@ -124,10 +123,9 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
           class="bg-white/60 p-8 rounded-3xl border-2 border-black shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2"
         >
           <Recycle class="w-16 h-16 mb-4" />
-          <h3 class="text-2xl font-bold mb-4">Economía Circular</h3>
+          <h3 class="text-2xl font-bold mb-4">{{ $t('home.impact.circular_economy.title') }}</h3>
           <p class="text-gray-700">
-            Damos una segunda vida a los dispositivos electrónicos, reduciendo la necesidad de extraer nuevos materiales
-            y fabricar desde cero.
+            {{ $t('home.impact.circular_economy.description') }}
           </p>
         </Motion>
 
@@ -139,9 +137,9 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
           class="bg-white/60 p-8 rounded-3xl border-2 border-black shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2"
         >
           <TreePine class="w-16 h-16 mb-4" />
-          <h3 class="text-2xl font-bold mb-4">Reducción de CO₂</h3>
+          <h3 class="text-2xl font-bold mb-4">{{ $t('home.impact.co2.title') }}</h3>
           <p class="text-gray-700">
-            Cada dispositivo reacondicionado evita la emisión de toneladas de CO₂ comparado con la fabricación de uno nuevo.
+            {{ $t('home.impact.co2.description') }}
           </p>
         </Motion>
 
@@ -153,9 +151,9 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
           class="bg-white/60 p-8 rounded-3xl border-2 border-black shadow-lg hover:shadow-2xl transition-all hover:-translate-y-2"
         >
           <Users class="w-16 h-16 mb-4" />
-          <h3 class="text-2xl font-bold mb-4">Impacto Social</h3>
+          <h3 class="text-2xl font-bold mb-4">{{ $t('home.impact.social.title') }}</h3>
           <p class="text-gray-700">
-            Hacemos la tecnología más accesible y contribuimos a la creación de empleos verdes en el sector del reciclaje.
+            {{ $t('home.impact.social.description') }}
           </p>
         </Motion>
       </div>
@@ -170,23 +168,23 @@ import ImageWithFallback from '../components/imagefailed/imageFallback.vue'
         class="bg-[#4A5F3B] text-[#E8F48C] p-12 rounded-3xl text-center border-2 border-black shadow-2xl"
       >
         <h2 class="text-3xl sm:text-5xl font-bold mb-6">
-          Únete a la Revolución Sostenible
+          {{ $t('home.cta_section.title') }}
         </h2>
         <p class="text-xl mb-8 max-w-2xl mx-auto">
-          Descubre cómo Back Market está cambiando el mundo, un dispositivo a la vez.
+          {{ $t('home.cta_section.description') }}
         </p>
         <div class="flex flex-wrap justify-center gap-4">
           <RouterLink
             to="/empresa"
             class="px-8 py-4 bg-[#E8F48C] text-[#4A5F3B] rounded-full border-2 border-black hover:bg-white transition-all font-bold"
           >
-            Nuestra Misión
+            {{ $t('home.cta_section.btn_mission') }}
           </RouterLink>
           <RouterLink
             to="/contact"
             class="px-8 py-4 bg-transparent border-2 border-[#E8F48C] text-[#E8F48C] rounded-full hover:bg-[#E8F48C] hover:text-[#4A5F3B] transition-all font-bold"
           >
-            Contáctanos
+            {{ $t('home.cta_section.btn_contact') }}
           </RouterLink>
         </div>
       </Motion>
