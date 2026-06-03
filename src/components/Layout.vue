@@ -1,27 +1,33 @@
 <script setup>
 import { RouterLink, RouterView, useRoute } from 'vue-router'
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { Globe, ChevronDown } from 'lucide-vue-next' // Importamos los iconos
 
+const { t, locale } = useI18n()
 
-const { t } = useI18n()
-// 1. Array de rutas para evitar duplicar código HTML
-const NAV_LINKS = [
+// Estado para controlar si el menú de idiomas está abierto o cerrado
+const isLangMenuOpen = ref(false)
+
+const NAV_LINKS = computed(() => [
   { path: '/', label: t('nav.home') },
-  { path: '/empresa', label: t('nav.empresa')  },
-  { path: '/canvi-climatic', label: t('nav.climate')  },
-  { path: '/asg', label: t('nav.asg')  },
-  { path: '/contact', label: t('nav.contact')  }
-]
+  { path: '/empresa', label: t('nav.empresa') },
+  { path: '/canvi-climatic', label: t('nav.climate') },
+  { path: '/asg', label: t('nav.asg') },
+  { path: '/contact', label: t('nav.contact') }
+])
 
 const route = useRoute()
 
-// 2. Función idéntica para controlar qué botón se ilumina
 const isActive = (path) => {
-  if (path === '/') {
-    return route.path === '/'
-  }
+  if (path === '/') return route.path === '/'
   return route.path.startsWith(path)
+}
+
+// Función para cambiar el idioma y cerrar el menú
+const changeLanguage = (lang) => {
+  locale.value = lang
+  isLangMenuOpen.value = false
 }
 </script>
 
@@ -43,6 +49,54 @@ const isActive = (path) => {
           >
             {{ link.label }}
           </RouterLink>
+
+          <div class="relative ml-2 sm:ml-4 border-l-2 border-black/20 pl-2 sm:pl-4">
+            
+            <button 
+              @click="isLangMenuOpen = !isLangMenuOpen"
+              class="flex items-center gap-2 px-4 py-2 bg-white text-black rounded-full border-2 border-black font-bold hover:bg-gray-100 transition-all uppercase"
+            >
+              <Globe :size="18" />
+              {{ locale }}
+              <ChevronDown :size="16" class="transition-transform duration-200" :class="isLangMenuOpen ? 'rotate-180' : ''" />
+            </button>
+
+            <div 
+              v-if="isLangMenuOpen" 
+              @click="isLangMenuOpen = false" 
+              class="fixed inset-0 z-40"
+            ></div>
+
+            <div 
+              v-if="isLangMenuOpen" 
+              class="absolute top-full mt-2 right-0 w-24 bg-white border-2 border-black rounded-2xl shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] overflow-hidden z-50 flex flex-col"
+            >
+              <button 
+                @click="changeLanguage('ca')" 
+                class="px-4 py-3 text-left font-bold border-b-2 border-black/10 hover:bg-[#E8F48C] transition-colors flex justify-between items-center"
+                :class="{'bg-[#E8F48C]': locale === 'ca'}"
+              >
+                CA <span v-if="locale === 'ca'" class="text-xs">✓</span>
+              </button>
+              
+              <button 
+                @click="changeLanguage('es')" 
+                class="px-4 py-3 text-left font-bold border-b-2 border-black/10 hover:bg-[#E8F48C] transition-colors flex justify-between items-center"
+                :class="{'bg-[#E8F48C]': locale === 'es'}"
+              >
+                ES <span v-if="locale === 'es'" class="text-xs">✓</span>
+              </button>
+              
+              <button 
+                @click="changeLanguage('en')" 
+                class="px-4 py-3 text-left font-bold hover:bg-[#E8F48C] transition-colors flex justify-between items-center"
+                :class="{'bg-[#E8F48C]': locale === 'en'}"
+              >
+                EN <span v-if="locale === 'en'" class="text-xs">✓</span>
+              </button>
+            </div>
+
+          </div>
 
         </div>
       </div>
